@@ -1,0 +1,17 @@
+geopandas
+shapely
+pyproj
+rtree
+fiona
+pandas
+numpy
+matplotlib
+contextily
+pysal
+esda
+splot
+libpysal
+statsmodels
+scikit-learn
+scikit-image
+pillow
