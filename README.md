@@ -1,8 +1,3 @@
-nsw-bushfire-analytics/
-  README.md
-  requirements.txt
-  data/                       # keep raw data here (gitignored)
-  notebooks/
-  src/
-  figs/
-  .gitignore
+# NSW Bushfire Analytics
+
+This is a starter project structure for spatio-temporal bushfire hotspot analysis in NSW.
