@@ -1,5 +1,14 @@
+# Ignore all raw data by default
 data/*
+
+# But keep an empty anchor so the folder exists
 !data/.gitkeep
+
+# Allow committing small processed outputs used in the talk
+!data/processed/
+!data/processed/*.csv
+
+# Usual noise
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
