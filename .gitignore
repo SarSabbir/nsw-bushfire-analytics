@@ -7,7 +7,7 @@ data/*
 !data/external/.gitkeep
 !data/processed/
 !data/processed/.gitkeep
-!data/processed/*.csv   # allow small processed CSVs you want to commit
+!data/processed/*.csv
 
 # Notebooks & Python noise
 .ipynb_checkpoints/
