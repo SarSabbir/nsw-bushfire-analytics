@@ -1,15 +1,17 @@
 # Ignore all raw data by default
 data/*
 
-# Keep anchor files/folders so they show up in GitHub
+# Keep the data folder itself and these placeholders, so folders show up
 !data/.gitkeep
 !data/external/
 !data/external/.gitkeep
 !data/processed/
 !data/processed/.gitkeep
+
+# Allow committing small processed CSVs you want in the repo
 !data/processed/*.csv
 
-# Notebooks & Python noise
+# Usual noise
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
